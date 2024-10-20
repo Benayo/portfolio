@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = ({ onMenuToggle, IsMenu }) => {
   return (
     <>
-      <nav className="grid grid-cols-10 p-8 md:px-16 w-full font-body shadow-sm text-white z-20">
+      <nav className="grid grid-cols-10 p-8 md:px-16 w-full font-body shadow-sm text-white z-20 bg-transparent">
         <Link
           onClick={onMenuToggle}
           to="/"

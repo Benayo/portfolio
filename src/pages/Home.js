@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
 
 import arrow from "../assests/Svg/arrow-down.svg";
-import arrowSide from "../assests/Svg/arrow-side.svg";
-import Navbar from "../components/navigation/Navbar";
 import SocialLinks from "../components/SocialLinks";
+import Navbar from "../components/navigation/Navbar";
+import NavPage from "../components/navigation/NavPage";
 
 const Home = () => {
   const [menu, setMenu] = useState(false);
@@ -17,7 +16,6 @@ const Home = () => {
     <>
       <div className="bg-hero-mobile-background sm:bg-hero-tab-background lg:bg-hero-desktop-background bg-cover min-h-screen flex flex-col ">
         <Navbar IsMenu={menu} onMenuToggle={menuHandler} />
-
         {menu && (
           <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-md z-10"></div>
         )}
@@ -64,63 +62,7 @@ const Home = () => {
             </div>
           </main>
         ) : (
-          <div className=" flex-grow p-8 md:py-16 md:px-16 grid md:grid-cols-10 w-full font-body text-white z-20">
-            <div className="col-span-6 flex flex-col justify-start">
-              <NavLink
-                onClick={menuHandler}
-                className="flex items-center mb-4 relative group"
-              >
-                <span className="inline-block h-[12px] bg-white mr-2 transition-all duration-300 ease-in-out transform origin-left w-0 group-hover:w-[20%] group-hover:max-w-[60px] group-hover:bg-[#1DA1F2]"></span>
-                <span className="text-[5rem] leading-none md:text-[7rem] font-main text-white transition-colors duration-300 ease-in-out group-hover:text-[#1DA1F2]">
-                  HOME
-                </span>
-              </NavLink>
-              <NavLink className="flex items-center mb-4 relative group">
-                <span className="inline-block h-[12px] bg-white mr-2 transition-all duration-300 ease-in-out transform origin-left w-0 group-hover:w-[20%] group-hover:max-w-[60px] group-hover:bg-[#1DA1F2]"></span>
-                <span className="text-[5rem] leading-none md:text-[7rem] font-main text-white transition-colors duration-300 ease-in-out group-hover:text-[#1DA1F2]">
-                  ABOUT
-                </span>
-              </NavLink>
-              <NavLink className="flex items-center mb-4 relative group">
-                <span className="inline-block h-[12px] bg-white mr-2 transition-all duration-300 ease-in-out transform origin-left w-0 group-hover:w-[20%] group-hover:max-w-[60px] group-hover:bg-[#1DA1F2]"></span>
-                <span className="text-[5rem] leading-none md:text-[7rem] font-main text-white transition-colors duration-300 ease-in-out group-hover:text-[#1DA1F2]">
-                  WORK
-                </span>
-              </NavLink>
-              <NavLink className="flex items-center mb-4 relative group">
-                <span className="inline-block h-[12px] bg-white mr-2 transition-all duration-300 ease-in-out transform origin-left w-0 group-hover:w-[20%] group-hover:max-w-[60px] group-hover:bg-[#1DA1F2]"></span>
-                <span className="text-[5rem] leading-none md:text-[7rem] font-main text-white transition-colors duration-300 ease-in-out group-hover:text-[#1DA1F2]">
-                  CONTACT
-                </span>
-              </NavLink>
-            </div>
-            <div className="flex flex-col font-sub">
-              <Link className="pb-6 text-left flex justify-between relative group">
-                <span className="mr-1 text-white transition-colors duration-300 ease-in-out group-hover:text-[#1DA1F2]">
-                  github
-                </span>
-                <img src={arrowSide} alt="arrow" className="w-4" />
-              </Link>
-              <Link className="pb-6 text-left flex justify-between relative group">
-                <span className="mr-1 text-white transition-colors duration-300 ease-in-out group-hover:text-[#1DA1F2]">
-                  linkedIn
-                </span>
-                <img src={arrowSide} alt="arrow" className="w-4" />
-              </Link>
-              <Link className="pb-6 text-left flex justify-between relative group">
-                <span className="mr-1 text-white transition-colors duration-300 ease-in-out group-hover:text-[#1DA1F2]">
-                  twitter
-                </span>
-                <img src={arrowSide} alt="arrow" className="w-4" />
-              </Link>
-              <Link className="py-32 text-left relative group">
-                <span className="block">email</span>
-                <span className="py-1 underline text-white transition-colors duration-300 ease-in-out group-hover:text-[#1DA1F2]">
-                  benjaminodeleye1@gmail.com
-                </span>
-              </Link>
-            </div>
-          </div>
+          <NavPage onMenuToggle={menuHandler} />
         )}
       </div>
     </>
