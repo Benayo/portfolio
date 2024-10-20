@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 const SocialLinks = () => {
   return (
     <div className="flex flex-wrap justify-between md:justify-start">
-      <Link className="relative px-6 group flex items-center">
+      <Link className="relative px-6 group flex items-center  group">
         <span className="transition-opacity duration-300 ease-in-out group-hover:opacity-0 xl:block hidden">
           gith
         </span>
