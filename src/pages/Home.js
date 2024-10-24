@@ -50,10 +50,17 @@ const Home = () => {
                 <div className="py-4 text-left">
                 Detail-oriented Frontend Engineer focused on creating elegant, user-friendly designs with cross-browser compatibility. Dedicated to delivering production-ready solutions that balance aesthetics and functionality.                </div>
 
-                <Link to='/about' className="text-left flex hover:text-[#1DA1F2]">
+                <div className="flex justify-between items-center"><Link to='/about' className="text-left flex hover:text-[#1DA1F2]">
                   <span className="mr-1">explore</span>
                   <img src={arrow} alt="arrow" />
                 </Link>
+                
+                
+                <Link to='/work' className="text-left flex hover:text-[#1DA1F2]">
+                  <span className="mr-1">projects</span>
+                  <img src={arrow} alt="arrow" />
+                </Link>
+                </div>
               </div>
 
               <SocialLinks />
