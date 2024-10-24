@@ -49,16 +49,18 @@ const Contact = () => {
                   placeholder="Your message"
                 />
 
-                <button type="submit"  className=" w-fit  flex justify-start py-8 px-24 bg-[#1E1B21] rounded-md">
+                <button type="submit"  className=" w-fit  flex justify-start py-6 md:py-8 px-24 bg-[#1E1B21] rounded-md">
                   Send message
                 </button>
               </form>
-              <div className="text-white flex flex-col md:flex-row justify-between items-end space-y-4 md:space-y-0">     <a href="mailto:benjaminodeleye1@gmail.com" className=" text-white hover:text-[#1DA1F2] underline pt-8 md:pt-16 cursor-pointer">
+             
+            </div>
+          </div>
+
+          <div className="text-white flex flex-col md:flex-row justify-between items-end space-y-6 md:space-y-0">     <a href="mailto:benjaminodeleye1@gmail.com" className=" text-white hover:text-[#1DA1F2] underline pt-8 md:pt-16 cursor-pointer">
                 benjaminodeleye1@gmail.com
               </a> <div><SocialLinks/></div></div>
               
-            </div>
-          </div>
         </div>
       ) : (
         <NavPage onMenuToggle={menuHandler} />

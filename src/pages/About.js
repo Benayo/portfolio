@@ -58,7 +58,7 @@ const About = () => {
             </div>
 
 
-<div className="text-white flex flex-col md:flex-row justify-between items-end space-y-4 md:space-y-0">          <a href="mailto:benjaminodeleye1@gmail.com"  className=" hover:text-[#1DA1F2] underline text-white pt-8 md:pt-16 cursor-pointer">benjaminodeleye1@gmail.com</a>
+<div className="text-white flex flex-col md:flex-row justify-between items-end space-y-6 md:space-y-0">          <a href="mailto:benjaminodeleye1@gmail.com"  className=" hover:text-[#1DA1F2] underline text-white pt-8 md:pt-16 cursor-pointer">benjaminodeleye1@gmail.com</a>
 
 <SocialLinks/></div>
   
