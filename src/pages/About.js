@@ -32,14 +32,9 @@ const About = () => {
                 </div>
 
                 <div className="text-left text-xl md:text-4xl leading-normal py-8">
-                  Combining aesthetics and usefulness, I create solid user
-                  interfaces in an artistic way. I love to spend time improving
-                  the aesthetics of digital products without forgetting about
-                  usability.
-                  <br /> <br /> I am is a user interface designer working with
-                  agencies and startups worldwide to tackle complex projects.
-                  Having collaborated with clients, Olacodes knows what it’s
-                  like to create, design and develop complex user interfaces.
+                  I’m a collaborative and detail-oriented Frontend Engineer with a knack for creating elegant, user-friendly solutions. Proficient in HTML, CSS, JavaScript, React, and Vue, I enjoy crafting pixel-perfect designs in Figma while ensuring cross-browser compatibility. My goal is to combine aesthetics with functionality to deliver production-ready designs that enhance the user experience.
+                  <br /> <br />
+                  I’ve collaborated with agencies and startups worldwide, tackling complex projects that require both creativity and technical expertise. I’m always eager to learn and grow, continually pushing the boundaries of what’s possible in frontend development.
                 </div>
               </div>
 
@@ -52,7 +47,7 @@ const About = () => {
 
                 <div>Creative Development</div>
 
-                <div>Webflow</div>
+                <div>Web Technologies</div>
 
               </div>
             </div>
