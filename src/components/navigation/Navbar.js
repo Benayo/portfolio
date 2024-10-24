@@ -16,10 +16,10 @@ const Navbar = ({ onMenuToggle, IsMenu }) => {
           <span className="w-4 h-4 bg-tertiary-100 rounded-full bg-[#1DA1F2] transition-colors duration-300 ease-in-out group-hover:bg-[#1DA1F2]"></span>
         </Link>
 
-        <div className="col-span-2 hidden md:flex flex-col font-light font-sub text-center md:text-left">
+        <Link className="col-span-2 cursor-pointer hidden md:flex flex-col font-light font-sub text-center md:text-left">
           <div>currently living in</div>
           <div>Lagos, Nigeria</div>
-        </div>
+        </Link>
 
         <Link
           onClick={onMenuToggle}

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 
 import arrowSide from "../../assests/Svg/arrow-side.svg";
 
@@ -64,12 +64,12 @@ const NavPage = ({ onMenuToggle }) => {
             </span>
             <img src={arrowSide} alt="arrow" className="w-4" />
           </a>
-          <a href="mailto:benjaminodeleye1@gmail.com" className="py-32 text-left relative group">
+          <div  className="py-32 text-left relative group">
             <span className="block">email</span>
-            <span className="py-1 underline text-white transition-colors duration-300 ease-in-out group-hover:text-[#1DA1F2]">
+            <a href="mailto:benjaminodeleye1@gmail.com" className="py-1 underline text-white transition-colors duration-300 ease-in-out group-hover:text-[#1DA1F2] cursor-pointer">
               benjaminodeleye1@gmail.com
-            </span>
-          </a>
+            </a>
+          </div>
         </div>
       </div>
     </>

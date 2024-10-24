@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../components/navigation/Navbar";
 import NavPage from "../components/navigation/NavPage";
+import SocialLinks from "../components/SocialLinks";
 
 const Contact = () => {
   const [menu, setMenu] = useState(false);
@@ -52,10 +53,10 @@ const Contact = () => {
                   Send message
                 </button>
               </form>
-
-              <div className=" underline pt-8 md:pt-16 ">
+              <div className="text-white flex flex-col md:flex-row justify-between items-end space-y-4 md:space-y-0">     <a href="mailto:benjaminodeleye1@gmail.com" className=" text-white hover:text-[#1DA1F2] underline pt-8 md:pt-16 cursor-pointer">
                 benjaminodeleye1@gmail.com
-              </div>
+              </a> <div><SocialLinks/></div></div>
+              
             </div>
           </div>
         </div>

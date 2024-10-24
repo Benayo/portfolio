@@ -92,6 +92,7 @@ const Work = () => {
               siteLink={project.siteLink}
               collaborators={project.collaborators}
               role={project.role}
+              link={project.link}
             />
           ))}
         </div>
