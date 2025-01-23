@@ -17,31 +17,43 @@ const projects = [
       "Idris (Frontend developer)",
     ],
     role: ["Frontend", "UI/UX"],
-  },{title: "ARUNA",
-  description:
-    "Led the development of a comprehensive website for Aruna, a US-based investment company, covering design, frontend, backend, and domain management. I crafted a user-friendly interface in Figma, implemented responsive designs with Tailwind CSS and React, and built a streamlined communication management system using Node.js, enhancing Aruna's online presence.",
-  siteLink: "Visit Site",
-  link: "https://www.arunaip.com/",
-  collaborators: [
-    "Adekunle Praise (Backend developer)",
-    "Akinola Alonge (Graphics Designer)",
-  ],
-  role: ["Frontend", "UI/UX"],
-},   {
+  },
+  {
+    title: "The Luxe Apartment",
+    description:
+      "I developed a Hotel Booking System for The Luxe Apartments, allowing users to browse available rooms, make bookings, and cancel reservations. The project was built using jQuery, HTML, SASS, and Bootstrap to create a responsive and user-friendly interface.",
+    siteLink: "Visit Site",
+    link: "https://theluxeapartment.com/",
+    collaborators: ["Timothy Ojo (CTO , Backend developer )"],
+    role: ["Frontend", "UI/UX"],
+  },
+  {
+    title: "ARUNA",
+    description:
+      "Led the development of a comprehensive website for Aruna, a US-based investment company, covering design, frontend, backend, and domain management. I crafted a user-friendly interface in Figma, implemented responsive designs with Tailwind CSS and React, and built a streamlined communication management system using Node.js, enhancing Aruna's online presence.",
+    siteLink: "Visit Site",
+    link: "https://www.arunaip.com/",
+    collaborators: [
+      "Adekunle Praise (Backend developer)",
+      "Akinola Alonge (Graphics Designer)",
+    ],
+    role: ["Frontend", "UI/UX"],
+  },
+  {
     title: "HAGE",
     description:
       "Spearheaded the frontend development for Hage's logistics platform, I built the user interface using React.js for dynamic functionality and Tailwind CSS for responsive design. I integrated Strapi as a headless CMS for enhanced content management, creating a comprehensive, user-friendly solution tailored to the logistics sector's needs.",
-    siteLink: "Visit Site",  link: "https://www.tryhage.com/",
-    collaborators: [
-      "Tosin (UI/UX)",
-      "Olalekan Sulaiman (Backend developer)",
-    ],
+    siteLink: "Visit Site",
+    link: "https://www.tryhage.com/",
+    collaborators: ["Tosin (UI/UX)", "Olalekan Sulaiman (Backend developer)"],
     role: ["Frontend"],
-  },  {
+  },
+  {
     title: "THRIFTVAULT",
     description:
       "Designed the UI/UX for ThriftVault, a web app revolutionizing group savings. Created an intuitive dashboard for joining saving cycles, tracking progress, and easy withdrawals. This project highlights my ability to simplify complex financial processes through engaging, functional designs that enhance user engagement and experience.",
-    siteLink: "Visit Site", link: "https://www.ajothrift-959d57d1f68d.herokuapp.com/",
+    siteLink: "Visit Site",
+    link: "https://www.ajothrift-959d57d1f68d.herokuapp.com/",
     collaborators: [
       "Adebayo Abayomi (Project Manager)",
       "Daniel (Backend developer)",
@@ -55,7 +67,8 @@ const projects = [
     title: "JEKAEAT",
     description:
       "Led the UI/UX design for Jekaeat, a web app enhancing food accessibility in Nigeria. Developed an intuitive interface that connects restaurants and vendors to users in the North, simplifying meal kit and fresh produce ordering. This project showcases my commitment to user-centric design and supporting local economies through technology.",
-    siteLink: "Visit Site", link:"https://play.google.com/store/apps/details?id=com.jekaeat.jekaeat",
+    siteLink: "Visit Site",
+    link: "https://play.google.com/store/apps/details?id=com.jekaeat.jekaeat",
     collaborators: [
       "Sodiq Olamilekan (Project Manager)",
       "Soliu Alley (Frontend/Backend developer)",
@@ -64,7 +77,6 @@ const projects = [
     ],
     role: ["UI/UX"],
   },
- 
 ];
 
 const Work = () => {
